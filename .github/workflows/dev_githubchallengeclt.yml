@@ -6,7 +6,7 @@ name: Build and deploy dotnet core project to Azure Function App - GitHubChallen
 on:
   push:
     branches:
-      - main
+      - dev
   workflow_dispatch:
 
 env:
@@ -37,6 +37,6 @@ jobs:
         id: fa
         with:
           app-name: 'GitHubChallengeCLT'
-          slot-name: 'Production'
+          slot-name: 'preprod'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F5B05A45FC5F4152BE391535F9F33096 }}
