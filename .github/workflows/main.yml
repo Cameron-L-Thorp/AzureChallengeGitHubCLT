@@ -14,6 +14,6 @@ jobs:
 
     - uses: azure/arm-deploy@v1
       with:
-        resourceGroupName: ${{ env.AzureChallengeGitHubActionsRG }}
+        resourceGroupName: ${{ env.ResourceGroupName }}
         template: ./azuredeploy.json
         parameters: storageAccountType=Standard_LRS
