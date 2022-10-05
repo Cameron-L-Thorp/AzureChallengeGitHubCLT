@@ -16,4 +16,4 @@ jobs:
       with:
         resourceGroupName: ${{ env.ResourceGroupName }}
         template: ./azuredeploy.json
-        parameters: storageAccountType=Standard_LRS
+
