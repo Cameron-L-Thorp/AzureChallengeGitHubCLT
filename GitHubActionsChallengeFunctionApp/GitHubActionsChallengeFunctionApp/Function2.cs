@@ -31,5 +31,5 @@ namespace GitHubActionsChallengeFunctionApp
 
             return new OkObjectResult(responseMessage);
         }
-    }
+    }//THis is to get the path or check it its working
 }
