@@ -4,7 +4,7 @@
     "parameters": {
         "storageAccountName": {
             "type": "string",
-            "defaultValue": "stgghchlgalexmang",
+            "defaultValue": "cameronleethorp",
             "metadata": {
                 "description": "description"
             }
@@ -18,7 +18,7 @@
         },
         "functionName": {
             "type": "string",
-            "defaultValue": "func-ghchlg-we-dev",
+            "defaultValue": "func-cameronleethorp-we-dev",
             "metadata": {
                 "description": "description"
             }
